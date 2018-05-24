@@ -1,21 +1,3 @@
 # BroenSampleClient
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `broen_sample_client` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:broen_sample_client, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/broen_sample_client](https://hexdocs.pm/broen_sample_client).
-
+This is a sample client for https://github.com/issuu/broen. To run simply type `mix run`. You must have a local RabbitMQ running together with `broen` configured to use it.
