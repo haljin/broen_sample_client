@@ -14,6 +14,7 @@ defmodule BroenSampleClient.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
+      mod: {BroenSampleClient.Application, []},
       extra_applications: [:logger]
     ]
   end
@@ -22,7 +23,7 @@ defmodule BroenSampleClient.MixProject do
   defp deps do
     [
       {:amqp_director, "~> 1.1"},
-      {:poison, "~> 3.1"},
+      {:poison, "~> 3.1"}
     ]
   end
 end
