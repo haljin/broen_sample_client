@@ -1,6 +1,6 @@
 defmodule BroenSampleClient.GetPostEndpoint do
   def setup(amqp_params, consumers) do
-    rpc_queue = "test_queue"
+    rpc_queue = "test_queue_getpost"
 
     AmqpDirector.server_child_spec(
       :sample_client_rpc_2,
