@@ -35,7 +35,7 @@ defmodule BroenSampleClient.GetPostEndpoint do
           |> Poison.encode()
 
         response = %{
-          status_code: 500,
+          status_code: 200,
           payload: payload,
           media_type: "application/json"
         }
